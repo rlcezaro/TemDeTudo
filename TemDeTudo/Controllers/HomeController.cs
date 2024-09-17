@@ -15,6 +15,7 @@ namespace TemDeTudo.Controllers
 
         public IActionResult Index()
         {
+            ViewData["email"] = "rlc@email.com";
             return View();
         }
 
